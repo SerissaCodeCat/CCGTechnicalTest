@@ -1,0 +1,13 @@
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\netcoreapp3.1\CCGFileConverter.exe
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\netcoreapp3.1\CCGFileConverter.deps.json
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\netcoreapp3.1\CCGFileConverter.runtimeconfig.json
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\netcoreapp3.1\CCGFileConverter.runtimeconfig.dev.json
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\netcoreapp3.1\CCGFileConverter.dll
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\netcoreapp3.1\CCGFileConverter.pdb
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.csprojAssemblyReference.cache
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.AssemblyInfoInputs.cache
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.AssemblyInfo.cs
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.csproj.CoreCompileInputs.cache
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.dll
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.pdb
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\netcoreapp3.1\CCGFileConverter.genruntimeconfig.cache

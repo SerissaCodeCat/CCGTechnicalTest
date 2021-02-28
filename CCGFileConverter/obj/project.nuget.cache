@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LfOY0es33fC4hOxjnH1IUPI2nRkFqGftxuxFmdzqKx2BkFWo7IbeYQahwsIdvgJZj6Shu6vybii9JPS0VkAV4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Black\\Documents\\CCG\\CCGTechnicalTest\\CCGFileConverter\\CCGFileConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Black\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}
