@@ -1,5 +1,23 @@
 <Data>
-  <Entry name="Dave" address_line1="Street" address_line2="Town" />
-  <Entry name="Ben" address_line1="Teerts" address_line2="Nwot" />
-  <Entry name="David" address_line1="Streetid" address_line2="Townid" />
+  <Entry>
+    <name>Dave</name>
+    <address>
+      <line1>Street</line1>
+      <line2>Town</line2>
+    </address>
+  </Entry>
+  <Entry>
+    <name>Ben</name>
+    <address>
+      <line1>Teerts</line1>
+      <line2>Nwot</line2>
+    </address>
+  </Entry>
+  <Entry>
+    <name>David</name>
+    <address>
+      <line1>Streetid</line1>
+      <line2>Townid</line2>
+    </address>
+  </Entry>
 </Data>

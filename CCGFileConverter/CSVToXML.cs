@@ -53,22 +53,55 @@ namespace CCGFileConverter
             }
             return result;
         }
+
+        /*
+        * where this project to continue, and we were to implement other filetypes to XML. this function would be brought out into it's own seperate class, 
+        * interacted with here through an interface. this would mean that for other filetypes to XML, all we would need to do would be to program the 
+        * data retrieval from the origin filetype.
+        */
         private bool createNewFile(List<List<string>> attributesAndValues)
         {
             bool success = false;
             XmlDocument xml = new XmlDocument();
             XmlNode rootNode = xml.CreateElement("Data");
             xml.AppendChild(rootNode);
-
+            bool groupedValues = false;
             for (int i = 1; i < attributesAndValues.Count; i++) //skip first item on the list as this is our atribute names
             {
                 XmlNode dataItem = xml.CreateElement("Entry");
                 rootNode.AppendChild(dataItem);
+                XmlNode item = xml.CreateElement("tmp");
                 for (int j = 0; j < attributesAndValues[j].Count; j++)
                 {
-                    XmlAttribute attribute = xml.CreateAttribute(attributesAndValues[0].ElementAt(j));
-                    attribute.Value = attributesAndValues[i].ElementAt(j);
-                    dataItem.Attributes.Append(attribute);
+                    if (!attributesAndValues[0].ElementAt(j).Contains('_')) //no grouped values, carry on as normal
+                    {
+                        item = xml.CreateElement(attributesAndValues[0].ElementAt(j));
+                        item.InnerText = attributesAndValues[i].ElementAt(j);
+                        dataItem.AppendChild(item);
+                    }
+                    else if (!groupedValues)
+                    {
+                        item = xml.CreateElement(attributesAndValues[0].ElementAt(j).Split('_')[0]);
+                        dataItem.AppendChild(item);
+                        XmlNode subItem = xml.CreateElement(attributesAndValues[0].ElementAt(j).Split('_')[1]);
+                        subItem.InnerText = attributesAndValues[i].ElementAt(j);
+                        item.AppendChild(subItem);
+                        groupedValues = true;
+                    }
+                    else
+                    {
+                        XmlNode subItem = xml.CreateElement(attributesAndValues[0].ElementAt(j).Split('_')[1]);
+                        subItem.InnerText = attributesAndValues[i].ElementAt(j);
+                        item.AppendChild(subItem);
+                        groupedValues = true;
+                    }
+                    if (groupedValues) //check that the group continues, if we are in a group, if not close group
+                    {
+                        if (j + 1 == attributesAndValues[0].Count || !attributesAndValues[0].ElementAt(j + 1).Contains('_'))
+                        {
+                            groupedValues = false;
+                        }
+                    }
                 }
             }
             resultingFileLocation = fileLocation.Remove(fileLocation.Length - 4);
