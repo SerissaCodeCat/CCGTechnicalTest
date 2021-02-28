@@ -1,0 +1,16 @@
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\CCGFileConverter.exe
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\CCGFileConverter.deps.json
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\CCGFileConverter.runtimeconfig.json
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\CCGFileConverter.runtimeconfig.dev.json
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\CCGFileConverter.dll
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\ref\CCGFileConverter.dll
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\bin\Debug\net5.0\CCGFileConverter.pdb
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.AssemblyInfoInputs.cache
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.AssemblyInfo.cs
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.csproj.CoreCompileInputs.cache
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.dll
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\ref\CCGFileConverter.dll
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.pdb
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.genruntimeconfig.cache
+C:\Users\Black\Documents\CCG\CCGTechnicalTest\CCGFileConverter\obj\Debug\net5.0\CCGFileConverter.csprojAssemblyReference.cache

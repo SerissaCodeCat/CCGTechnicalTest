@@ -10,6 +10,7 @@ namespace CCGFileConverter
         {
             List<Translator> translators = new List<Translator>();
             translators.Add(new CSVToXML());
+            translators.Add(new CSVToJson());
             int userChoice = 0; //options do not go down to 0. 
             int numberOfOptions = 0;
             string userInput = "";
